@@ -5,6 +5,16 @@
     max-width: 1250px;
     margin: 0 auto;
     padding: .5rem 0 0px;
+    position: relative;
+}
+
+.banner img {
+    width: 80px;
+    position: absolute;
+    top: 20px;
+    left: 475px;
+    transform: rotate(25deg);
+    z-index: 1;
 }
 
 .box-texto {

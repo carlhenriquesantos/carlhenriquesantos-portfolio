@@ -1,17 +1,8 @@
-/* =========================
-   CERTIFICADOS
-========================= */
-
 .box-certificados {
     width: min(1100px, 90%);
 
     margin: 5rem auto 0;
 }
-
-
-/* =========================
-   TÍTULO DA SEÇÃO
-========================= */
 
 .certificados-heading {
     margin-bottom: 2.5rem;
