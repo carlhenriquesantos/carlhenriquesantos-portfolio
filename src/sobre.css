@@ -1,13 +1,14 @@
-.terminal-card {
+.terminal-sobre {
     background: linear-gradient(135deg, #101b29, #050a12);
     border: 1px solid rgba(255,255,255,.16);
     border-radius: 14px;
     box-shadow: 0 25px 60px rgba(0,0,0,.45);
     overflow: hidden;
+    position: relative;
     font-family: "Space Mono", monospace;
 }
 
-.terminal-top {
+.terminal-top-sobre {
     width: 880px;
     height: 480px;
     margin: 6rem auto 0;
@@ -39,7 +40,7 @@
 }
 
 
-.terminal-content {
+.terminal-content-sobre {
     padding: 5px 22px 18px;
     font-size: .75rem;
     line-height: 1.8;
@@ -65,7 +66,7 @@
 }
 
 
-.terminal-content {
+.terminal-content-sobre {
     padding: 35px;
 
     font-family:
@@ -155,16 +156,12 @@
 
 /* CURSOR */
 
-.cursor {
+.cursor-sobre {
     display: inline-block;
-
     width: 9px;
     height: 18px;
-
     background: var(--font-color);
-
     margin-left: 4px;
-
     animation: blink 1s infinite;
 }
 

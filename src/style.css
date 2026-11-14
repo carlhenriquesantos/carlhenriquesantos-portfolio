@@ -41,13 +41,13 @@
     gap: 1rem;
 }
 
-.box-texto .titulo {
-    font-size: 6.5rem;
-    max-width: 80%;
+.box-texto .titulo-principal {
+    font-size: 5.5rem;
+    max-width: 100%;
     line-height: 6rem;
 }
 
-.box-texto .titulo span {
+.box-texto .titulo-principal span {
     color: var(--tertiary-color);
 }
 
@@ -69,21 +69,40 @@
     display: flex;
 }
 
-.box-texto .ferramentas {
+.botoes-uteis {
+    margin-top: 10rem;
     display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    border-radius: 9px;
-    background:rgba(10, 18, 30, .9);
-    border:1px solid rgba(255,255,255,.14);
-    margin-top: 1.5rem;
-    max-width: fit-content;
-    padding: .6rem 1rem;
+    gap: 3rem;
 }
 
-.box-texto .ferramentas .ferramenta {
-    display: flex;
-    padding: 0 1rem;
+.botao {
+    padding: 16px 24px;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.link-lib {
+    background-color: #e7c049;
+    transition: ease .3s;
+    box-shadow: 0 10px 30px rgba(243, 201, 77, .2);
+}
+
+.link-lib:hover {
+    background-color: #caa841;
+    transform: translateY(-8px);
+}
+
+.link-livro {
+    border: 1px solid var(--tertiary-color);
+    transition: ease .3s;
+    box-shadow: 0 10px 30px rgba(0, 174, 202, .2);
+}
+
+.link-livro:hover {
+    transform: translateY(-8px);
+    background-color: var(--tertiary-color);
 }
 
 .box-imagem {
@@ -190,7 +209,6 @@
 .green-bola {
     background: var(--success);
 }
-
 
 .terminal-content {
     padding: 5px 22px 18px;
